@@ -211,6 +211,7 @@ margin-bottom: 127px;
 .trips__item-content{
   padding: 36px 30px;
   color: #000;
+  display: block;
 }
 
 .trips__item-subtitle {
@@ -220,29 +221,24 @@ margin-bottom: 127px;
 }
 
 .trips__item-feature {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   width: 115px;
   margin-right: 30px;
+  margin-bottom: 23px;
 }
-
 
 .trips__item-feature:last-child {
   margin-right: 0;
 }
 
 .trips__item-text {
-  font-size: 36px;
+  font-size: 16px;
   color: #666;
 }
 
 .trips__item-block {
   display: inline-block;
-  /* padding: 87px 28px 62px 192px; */
-}
-
-.trips__item-feature {
-  margin-bottom: 50px;
 }
 
 .trips__button {
