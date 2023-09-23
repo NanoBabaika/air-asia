@@ -1,0 +1,52 @@
+
+.footer {
+    height: 152px;
+    position: relative;
+  }
+  
+  
+  .footer__menu {
+    position: absolute;
+    top: 65px;
+    left: 250px;
+  }
+  
+  .footer__contacts {
+    position: relative;
+    top: 71px;
+    right: -780px;
+  }
+  
+  .contacts__free-call{
+    position: relative;
+    top: -29px;
+    right: -196px;
+    margin-bottom: 6px;
+  }
+  
+  
+  .footer__container-content {
+    border-top: 1px solid #FFFFFF;
+  
+  }
+
+  .footer__container-content {
+    height: 140px;
+    margin-top: 12px;
+  }
+
+
+.inner-footer__container {
+  padding: 45px 0;
+}
+
+.inner-footer {
+ margin-top: auto;
+}
+
+.footer-tel{
+  position: relative;
+  top: -14px;
+  right: -75px;
+}
+  

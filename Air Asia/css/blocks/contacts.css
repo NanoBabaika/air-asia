@@ -1,0 +1,30 @@
+.contacts {
+    position: absolute;
+    top: 48px;
+    right: 0;
+  }
+  
+  .contacts__dropdown-title {
+    position: absolute;
+    top: 31px;
+    right: 0;
+  }
+
+
+  .contacts {
+    font-style: normal ;
+    text-align: right;
+  }
+  
+  .contacts__free-call {
+    color: #9A9A9A;
+    font-size: 11px;
+  }
+
+  .contacts__dropdown-title{ 
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #FFF;
+    display: block;
+  }
+   
