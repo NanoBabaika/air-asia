@@ -67,4 +67,11 @@ body {
       background: #F4F5F5;
     }
 
+    .preview__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 600px;
+    }
+
     
