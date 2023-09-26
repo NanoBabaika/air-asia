@@ -1,19 +1,25 @@
 .paginator {
-    text-align: center;  
+    /* text-align: center;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  .paginator__display, .paginator__list {
-    display: inline-block;
-    vertical-align: middle;
-  }
+  
   
   .paginator__display {
     margin-right: 26px;
   }
   
   .paginator__item {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
+    text-align: center;
+  }
+
+  .paginator__list {
+    display: flex;
+    align-items: center;
   }
   
   .paginator__link {

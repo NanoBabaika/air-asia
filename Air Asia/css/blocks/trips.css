@@ -13,22 +13,23 @@
 }
 
 .trips__title-icon {
-   
-  margin-left: 15px;
+  position: absolute;
+  top: -97px;
+  left: 285px;
 }
  
 
 .trips__list {
   margin-bottom: 127px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .trips__item {
   min-height: 470px;
   background: #fff;
   border-radius: 4px;
-  display: inline-block;
-  margin-right: 18px;
-  width: 362px;
+  width: calc(100% / 3 - 22px);
 }
 
 .trips__item:last-child {

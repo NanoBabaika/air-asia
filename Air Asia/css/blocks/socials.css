@@ -1,13 +1,14 @@
 .social {
-  position: absolute;
+  /* position: absolute;
   top: 53px;
-  right: 300px;
+  right: 300px; */
+  margin-right: 74px;
 }
 
   
   .social__item {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
     margin-right: 10px;
     width: 36px;
     height: 36px;
@@ -19,7 +20,7 @@
 
 
   .social__list {
-    display: block;
+    /* display: block; */
     text-decoration: none;
     background: center center no-repeat;
   }
