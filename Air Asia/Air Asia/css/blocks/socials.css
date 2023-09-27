@@ -1,0 +1,65 @@
+.social {
+  /* position: absolute;
+  top: 53px;
+  right: 300px; */
+  margin-right: 74px;
+}
+
+  
+  .social__item {
+    /* display: inline-block;
+    vertical-align: middle; */
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .social__item:last-child {
+    margin-right: 0;
+  }
+
+
+  .social__list {
+    /* display: block; */
+    text-decoration: none;
+    background: center center no-repeat;
+  }
+  
+  
+  
+  .social__item--icon--telegram .socials__link{
+    background-image: url(../../img/telegram__icon.svg);
+    
+  }
+  
+  .social__item--icon--telegram .socials__link:hover{
+    background-image: url(../../img/telegram__icon.svg);
+    
+  }
+  
+  
+  .social__item--vk .socials__link{
+    background-image: url(../../img/vk__icon.svg);
+  }
+  
+  .social__item--vk .socials__link:hover{
+    background-image: url(../../img/vk__icon.svg);
+  }
+  
+  
+  .social__item--f .socials__link{
+    background-image: url(../../img/f__icon.svg);
+  }
+  
+  .social__item--f .socials__link:hover{
+    background-image: url(../../img/f__icon.svg);
+  
+  }
+  
+  .social__item--insta .socials__link{
+    background-image: url(../../img/insta__icon.svg);
+  }
+  
+  .social__item--insta.socials__link:hover{
+    background-image: url(../../img/insta__icon.svg);
+  }

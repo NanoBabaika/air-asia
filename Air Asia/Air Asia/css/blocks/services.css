@@ -1,0 +1,36 @@
+.services {
+    display: flex;
+    padding: 58px 43px;
+}
+
+.services__img {
+  width: 30%;
+  margin-right: 7%;
+}
+ 
+
+.services__content {
+  flex: 1;
+}
+
+
+.services__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  color: #000;
+}
+
+
+.services__desc {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+ 
+
+.paginator__link-services {
+  background-color: #F5170E;;
+  color: #FFF;
+  border-radius: 26px;
+}
