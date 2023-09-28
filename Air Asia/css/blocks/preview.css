@@ -1,11 +1,11 @@
 .preview {
-    width: 38%;
+    width: 50%;
     margin-bottom: 246px;
   }
   
   .preview__title {
   position: relative;
-  font-size: 48px;
+  font-size: 72px;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 18px;
