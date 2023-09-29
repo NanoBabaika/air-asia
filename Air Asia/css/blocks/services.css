@@ -1,16 +1,33 @@
 .services {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 58px 43px;
+    margin-left: 142px;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 49px;
+}
+
+.service__img-elem {
+  display: flex;
 }
 
 .services__img {
+  display: flex;
   width: 30%;
   margin-right: 7%;
+  flex-direction: row-reverse;
 }
  
 
 .services__content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -25,6 +42,8 @@
 .services__desc {
   line-height: 1.7;
   margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
 }
 
  
