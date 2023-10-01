@@ -7,7 +7,7 @@
 .reviews {
     column-count: 2;
     column-gap: 30px;
-    width: 45%;
+    /* width: 65%; */
 }
 
 
@@ -42,13 +42,6 @@
     margin-bottom: 30px;
 }
 
-.reviews__photo {
-
-}
-
-.review__userdata {
-
-}
 
 
 .review__user {
@@ -85,9 +78,7 @@
     background: #E7E7E7;;
 }
 
-.review__content {
 
-}
 
 .review__title{
     font-size: 30px;

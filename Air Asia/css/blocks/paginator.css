@@ -9,11 +9,12 @@
   
   .paginator__display {
     margin-right: 26px;
+    color: #000;
   }
   
   .paginator__item {
-    /* display: inline-block;
-    vertical-align: middle; */
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
   }
 
@@ -44,3 +45,25 @@
     border-radius: 26px;
   }
   
+
+  .paginator__item--active-other {
+    background-color: #F5170E;
+    color: #fff;
+    border-radius: 32px;
+  }
+
+  
+
+  .paginator__item-other {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color:black;
+
+  }
+
+  .paginator__item-other:hover {
+    background-color: #F5170E;
+    color: #fff;
+    border-radius: 32px;
+  }
