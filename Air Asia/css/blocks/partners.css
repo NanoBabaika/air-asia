@@ -30,7 +30,6 @@
 .partners {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -46px;
 }
 
 .partners__link:hover {

@@ -15,4 +15,26 @@
   color: #fff;
   display: block;
   right: 0;
+  cursor: pointer;
+}
+
+
+/* выпадашка */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdow:hover .dropdown__list {
+  display: block;
+}
+
+.dropdown__list {
+  position: absolute;
+  fill: gray;
+  border: 1px solid black;
+  padding: 10px;
+  width: 160px;
+  top: 100%;
+  display: none;
 }

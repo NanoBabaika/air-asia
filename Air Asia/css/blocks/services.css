@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 58px 43px;
-    margin-left: 142px;
+    margin-bottom: 49px;
 }
 
 .services__item {
@@ -13,15 +13,21 @@
   margin-bottom: 49px;
 }
 
+.services__item:last-child {
+  margin-bottom: 0;
+}
+
 .service__img-elem {
-  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .services__img {
   display: flex;
   width: 30%;
   margin-right: 7%;
-  flex-direction: row-reverse;
+  flex-shrink: 0;
 }
  
 

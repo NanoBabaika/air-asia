@@ -21,6 +21,7 @@
 
   .social__list {
     /* display: block; */
+    display: flex;
     text-decoration: none;
     background: center center no-repeat;
   }

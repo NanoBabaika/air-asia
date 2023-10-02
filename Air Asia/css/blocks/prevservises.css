@@ -35,9 +35,9 @@
     color: #9A9A9A;
 }
 
-/* .breadcrumbs__link:last-child:after {
+.breadcrumbs__link:last-child::after {
     display: none;
-} */
+}
 
 .breadcrumbs__link {
     color: #9A9A9A;

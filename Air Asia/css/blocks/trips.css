@@ -3,19 +3,19 @@
   position: relative;
 }
 
+.trips__title {
+  margin-bottom: 51px;
+}
+
 .trips__title-text {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 51px;
-  position: absolute;
-  top: -111px;
-  right: 878px;
+  display: inline-block;
 }
 
 .trips__title-icon {
-  position: absolute;
-  top: -97px;
-  left: 281px;
+  display: inline-block;
+  margin-left: 12px;
 }
  
 

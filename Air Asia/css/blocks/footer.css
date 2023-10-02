@@ -38,6 +38,8 @@
 .footer__container-content {
   height: 140px;
   margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .inner-footer__container {
