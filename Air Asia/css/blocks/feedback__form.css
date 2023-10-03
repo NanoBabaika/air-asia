@@ -4,7 +4,14 @@
     background-size: cover;
 }
  
- 
+
+.feedback__title {
+    color: #1A1B1E;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+}
+
 .form__row {
     display: flex;
     margin-bottom: 30px;
