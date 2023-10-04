@@ -1,0 +1,53 @@
+.about {
+    margin-bottom: 38px;
+  }
+  
+  
+  .about::before, .about__info{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  .about::before {
+    content: "";
+    width: 488px;
+    height: 502px;
+    background-image: url(../../img/gates.png);
+    object-fit: cover;
+  }
+  
+  .about__info {
+    content: "";
+    background-image: url(../../img/about.png);
+    padding: 80px 98px;
+    width: 780px;
+    height: 450px;
+    margin-left: 358px;
+    margin-top: -401px;
+    border-radius: 5px;
+  }
+  
+  .about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 37px;
+    color: #000;
+  }
+  
+  .about_text {
+    margin-bottom: 42px;
+    color: #060606;
+  }
+  
+  .about_text p {
+    margin-bottom: 20px;
+  }
+  
+  .about_text p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about__btn {
+    margin-top: 43px;
+  }

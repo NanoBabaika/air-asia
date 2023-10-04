@@ -1,0 +1,45 @@
+
+.top-line {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../img/headline\ services.png) right 10% top no-repeat;
+    padding-bottom: 25px;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page__title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link .breadcrumbs__item-active {
+    color: #161414;
+    text-decoration: none;
+}
+
+.breadcrumbs__link::after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+}

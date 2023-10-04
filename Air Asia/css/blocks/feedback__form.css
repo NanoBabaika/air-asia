@@ -1,0 +1,42 @@
+.feedback {
+    background: #F4F5F5;
+    display: block;
+    background-size: cover;
+}
+ 
+
+.feedback__title {
+    color: #1A1B1E;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: black;
+}
+
+
+.form__input::placeholder {
+    color: #666;    
+}
+
+.form__input:last-child{
+    margin-right: 0px;
+}
+
+.form__input-textarea {
+    min-height: 232px;
+}

@@ -1,0 +1,97 @@
+body,
+html {
+  height: 100%;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #031920;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-height: 1200px;
+}
+
+.main-page-wrapper {
+  background: url(../../img/headerIMG.png) center top no-repeat,
+    url(../../img/fone2.png) right bottom 307px no-repeat;
+}
+
+.services-page-wprapper {
+  background: url(../../img/headline\ services.png) center top no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.page-content {
+  background: #ffffff;
+  color: #303030;
+  padding: 40px 0;
+  display: flex;
+}
+
+.container__partners {
+  background: #f4f5f5;
+}
+
+.preview__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+
+
+.footer__container {
+ margin-top: auto;
+ min-width: 1150px;
+}
+
+
+ 
