@@ -68,12 +68,12 @@
     color: #303030;
     padding: 8px 16px;
     border-radius: 50px;
-    background: #B9EAE4;
+    background: #E7E7E7;;
 }
 
 
-.tag--bg--ray {
-    background: #E7E7E7;;
+.tag--bg--green {
+    background: #B9EAE4;
 }
 
 
