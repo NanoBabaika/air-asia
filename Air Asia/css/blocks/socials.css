@@ -9,6 +9,8 @@
 }
 
 .social__item {
+  display: flex;
+  flex-direction: column;
   margin-right: 10px;
   width: 36px;
   height: 36px;
@@ -31,6 +33,7 @@
   text-decoration: none;
   width: 36px;
   height: 36px;
+  flex-direction: row;
 }
 
 
@@ -47,7 +50,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-340%, -12%);
+  transform: translate(-49%, -49%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -73,7 +76,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-345%, -12%);
+  transform: translate(-49%, -49%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -99,7 +102,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-226%, -12%);
+  transform: translate(-49%, -49%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -125,7 +128,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-106%, -12%);
+  transform: translate(-49%, -49%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
