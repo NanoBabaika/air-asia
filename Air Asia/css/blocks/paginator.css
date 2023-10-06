@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 92px;
   }
   
   
@@ -65,7 +66,6 @@
     vertical-align: middle;
     text-align: center;
     color:black;
-
   }
 
   .paginator__item-other:hover {

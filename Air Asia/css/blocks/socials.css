@@ -47,7 +47,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-243%, -4%);
+  transform: translate(-340%, -12%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -73,7 +73,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-256%, -5%);
+  transform: translate(-345%, -12%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -99,7 +99,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-144%, -8%);
+  transform: translate(-226%, -12%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
@@ -125,7 +125,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-32%, -9%);
+  transform: translate(-106%, -12%);
   width: 36px;
   height: 36px;
   background: url(../../img/icons/sprites.png);
