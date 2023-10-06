@@ -25,6 +25,11 @@
     align-items: center;
 }
 
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
  .breadcrumbs__item-active .breadcrumbs__link{
     color: #9A9A9A;
     text-decoration: none;

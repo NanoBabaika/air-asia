@@ -131,7 +131,6 @@
 .forms__btns {
     display: flex;
     justify-content: flex-end;
-    /* margin-bottom: 96px; */
     padding-bottom: 96px;
 }
 

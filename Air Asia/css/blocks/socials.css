@@ -33,6 +33,139 @@
   height: 36px;
 }
 
+
+
+.socials__link-telegram {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+.socials__link-telegram::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-243%, -4%);
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprites.png);
+  background-position: -10px -122px;
+}
+
+.socials__link-telegram:hover::after{
+  background-position: -10px -66px;;
+}
+
+/* вк */
+
+.socials__link-vk {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+
+.socials__link-vk::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-256%, -5%);
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprites.png);
+  background-position: -66px -122px;
+}
+
+.socials__link-vk:hover::after{
+  background-position: -66px -66px;
+}
+
+/* рожакнига */
+
+.socials__link-f {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+
+.socials__link-f::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-144%, -8%);
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprites.png);
+  background-position: -122px -10px;
+}
+
+.socials__link-f:hover::after{
+  background-position: -10px -10px;
+}
+
+/* insta */
+
+.socials__link-insta {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+
+.socials__link-insta::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-32%, -9%);
+  width: 36px;
+  height: 36px;
+  background: url(../../img/icons/sprites.png);
+  background-position: -122px -66px;
+}
+
+.socials__link-insta:hover::after{
+  background-position: -66px -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .social__item-telegram-hover .socials__link {
   background-image: url(../../img/icons/telegram__icon.svg);
 }
@@ -63,25 +196,8 @@
 
 .social__item-insta-hover .socials__link:hover{
   background-image: url(../../img/icons/in_hover.png);
-}
-
-
-
-
-
-
-
-/* .social__item-vk::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
-  background: url("css_sprites.png") -66px -66px;
 } */
+
 
 
  
