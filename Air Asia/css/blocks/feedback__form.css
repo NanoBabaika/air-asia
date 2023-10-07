@@ -1,4 +1,5 @@
 .feedback {
+    padding-top: 62px;
     background: #F4F5F5;
     display: block;
     background-size: cover;
@@ -12,7 +13,6 @@
     font-weight: bold;
     line-height: normal;
     margin-bottom: 57px;
-    padding-top: 62px;
 }
 
 .form__row {

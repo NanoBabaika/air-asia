@@ -54,9 +54,10 @@
 }
 
 
-.review__user  {
+.review__user::after {
     content: url(../../img/vk-blue\ 1.png);
     height: 29px;
+    margin-left: 9px;
 }
 
 .review__tags {
